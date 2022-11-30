@@ -1,0 +1,15 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.sort {
+    display: flex;
+    gap: 10px;
+}
+button {
+    padding: 3px 23px;
+    display: inline-block;
+    background-color: rgb(38, 38, 38);
+    color: rgb(235, 235, 218);
+}
