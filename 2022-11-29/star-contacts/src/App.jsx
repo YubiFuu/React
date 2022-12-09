@@ -11,11 +11,14 @@ function App() {
 
     function sortName() {
         if (checkNam == true) {
-            starContactsCopy.sort((a, b) => a.name > b.name);
+            starContactsCopy.sort(
+                (a, b) => a.name.toLowerCase() > b.name.toLowerCase()
+            );
             setCheckNam(false);
         } else if (checkNam == false) {
-            starContactsCopy.sort((a, b) => a.name < b.name);
-
+            starContactsCopy.sort(
+                (a, b) => a.name.toLowerCase() < b.name.toLowerCase()
+            );
             setCheckNam(true);
         }
         setCheckPop(true);

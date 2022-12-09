@@ -1,0 +1,20 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 2vw;
+}
+
+main section img {
+    width: 100%;
+    object-fit: cover;
+}
+
+main section p:last-of-type {
+    color: #999;
+}
+
+main section:nth-last-of-type(2),
+main section:last-of-type {
+    grid-column: span 2;
+}

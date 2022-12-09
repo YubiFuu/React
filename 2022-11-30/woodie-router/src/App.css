@@ -1,0 +1,36 @@
+html {
+    font-size: 62.5%;
+}
+
+main {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+main > * {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+main a {
+    text-decoration: none;
+    background-color: #daa520;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+span {
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+    font-weight: 600;
+}

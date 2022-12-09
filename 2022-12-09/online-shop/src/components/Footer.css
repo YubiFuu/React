@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vw;
+}
+
+footer section {
+    max-width: 25%;
+}
+
+footer section p {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+footer section p:last-of-type {
+    margin-top: 0;
+}
+footer section p:first-of-type {
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+}

@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4vw;
+}
+header h1 {
+    font-size: 1rem;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: initial;
+}
+a:hover {
+    color: rgb(176, 176, 109);
+}
+
+header nav hr {
+    height: 0.9rem;
+    border: 1px solid rgb(197, 197, 197);
+}

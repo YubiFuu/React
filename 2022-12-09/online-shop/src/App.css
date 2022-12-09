@@ -1,0 +1,21 @@
+.App {
+    padding: 4vw;
+}
+
+outro {
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+    color: #999;
+}
+
+outro div {
+    display: flex;
+    gap: 1vw;
+}
+
+outro a {
+    font-size: inherit;
+}
